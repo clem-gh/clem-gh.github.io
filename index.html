@@ -1,18 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Login</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>The Gotita Project</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="shortcut icon" href="Gotita 1.PNG">
 </head>
+
 <body>
-    <div id="login_div" class="main-div">
-        <h3>Gotita Project Login</h3>
-        <input type="email" placeholder="Email..." id="email_field"/>
-        <input type="password" placeholder="Password..." id="password_field"/>
-        <button onclick="login()">Login to account</button>
-    </div>
 
+    <section class="content_header">
+        <div class="header">
+            <nav>
+                <img class="Logo_2" src="images/Gotita 1.PNG" height="200" alt="logo">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="app.html">App</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
 
+    <section class="content">
+        <div class="Logo_1">
+            <img src="images/TheGotitaProject_Logo.png" height="200" alt="logo">
+        </div>
+        
+        <div>
+            <p>
+                This section aims to give an overview of The Gotita Project, 
+                the current situation of WASH assignments in the World and Colombia, 
+                and how we will tackle the problem. 
+            </p>
+        </div>
+
+        <div>
+            <h2>Problem Statement</h2>
+            <hr style="border: none;">
+            <p>
+                In 2017, an estimated 1.2 million people died as a result of 
+                unsafe water sources. This was <strong>2.2%</strong> of global deaths.
+            </p>
+            <p>
+                For this reason, multiple NGOs are now trying to improve this 
+                aspect and improve the quality of life of those who lived in 
+                undeserved areas. Nevertheless, there are too much challenges 
+                that WASH units are facing now.
+            </p>
+        </div>
+
+        <div class="OWID">
+            <iframe src="https://ourworldindata.org/grapher/share-deaths-unsafe-water" loading="lazy" style="width: 50%; height: 500px; border: 0px none;"></iframe>
+            <iframe src="https://ourworldindata.org/grapher/number-without-safe-drinking-water" loading="lazy" style="width: 50%; height: 500px; border: 0px none;"></iframe>
+        </div>
+
+        <div class="testimonials">
+            <h3>Experiences from the field</h3>
+            <p> 
+                "Right now, in refugee camps, water monitoring it is a costly, 
+                time consuming and inefficient process. To measure water quality 
+                we need a high number of people and during rainy seasons we need 
+                to transport them in helicopter. Furthermore, data is being taken 
+                by hand, which is highly time consuming."
+            </p>
+            <p> 
+                <em>WASH Advisor for a Swiss NGO in Nigeria</em>
+            </p>
+            <p>
+                "People from San Isidro of Puerto Caldas in Colombia have recurrently 
+                problems with water quality due to illegal embezzlement of water networks. 
+                Our company is only ensuring good water quality to the people that is 
+                currently subscribe to our services."
+            </p>
+            <p> 
+                <em>President of the public water company of Pereira</em>
+            </p>
+        </div>
+
+        <div>
+            <h3>Challenges faced ensuring water quality</h3>
+            <p>
+                To ensure water quality we need to:
+            </p>
+            <ul>
+                <li>Measure some parameters of water quality at least twice a day in risk areas, and once a day in more safe ones.</li>
+            </ul>
+            <p>
+                Too many changes are faced ensuring water quality, even though we agree that:
+            </p>
+            <ol>
+                <li>Rural zones are the most affected ones. The more distant they are from cities, the worst water quality will be.</li>
+                <li>Its difficult to ensure water quality with manual techniques in a daily basis.</li>
+                <li>Measuring water quality can require a lot of ressources and costly.</li>
+            </ol>
+
+        </div>
+
+        <div>
+            <h2>Our solution</h2>
+            <hr style="border: none;">
+            <p>
+                We aim with this project to design a device that can aloud either public utility 
+                companies, households or WAHS teams from NGOs, to measure at distance and automatically 
+                water quality.
+            </p>
+        </div>
+
+        <h3>Supported by</h3>
+
+        <div class="support">
+            <div>
+            <img id="LogoEPFL" src="images/logo_epfl.png" height="70" alt="logo">
+            <p>
+                This project has been awarded the Innovation Award during the EPFL Tech4Dev Summer School 
+                program and the Sustainable Award during the edition of 2021 of Changemakers EPFL program, sponsored by the 
+                Ecole Polythechnique Fédérale de Lausanne and Logitech.
+            </p>
+            </div>
+
+            <div>
+            <img id="Logo" src="images/Logo_U.T.P.png" height="70" alt="logo">
+            <p>
+                This project has been suported by prof. Carlos Andres Mesa Montoya and his investigation group
+                about manufacturing processes and machines design of the Technological University of Pereira in 
+                the frame of Young Innovators Scholarship, granted to Clement Gomez.
+            </p>
+            </div>
+            
+            <div>
+                <img id="Logo" src="images/logo_minciencias.jpg" height="70" alt="logo">
+                <p>
+                    This project has been sponserd by the Ministry of Sciences, Technologies and 
+                    Innovation of Colombia in the frame of Young Innovators Scholarship, granted to Clement Gomez.
+                </p>
+            </div>          
+        </div>
+    </section>
+    
+    <section class="contact">
+        <div>
+            <h2 id="contact">Contact</h2>
+            <ul>
+                <li><a href="">Email</a></li>
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
 </body>
 </html>
