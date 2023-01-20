@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: rgb(90, 88, 88);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    color: rgb(63, 74, 239);
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    height: 100vh;
+}
+
+.content {
+    margin: 20px auto;
+    width: 90%;
+}
+
+p {
+    margin: 10px auto;
+}
+
+.Logo_1 {
+    text-align: center;
+}
+
+.support {
+    border: 2px solid rgb(142, 142, 143);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,253);
+}
+
+.header {
+    width: 100%;
+    border: 0px solid ;
+    position: fixed;
+    background-color: white;
+    top: -5px;
+}
+
+nav {
+    text-transform: uppercase;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.Logo_2 {
+    width: 50px;
+    height: auto;
+    align-items: center;
+    border: 1px solid rgb(96, 96, 96);
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,253);
+    margin: 0px 20px;
+}
+
+.nav-links {
+    padding: 28px 0;
+    margin: 0 30px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;   
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;  
+    position: relative;
+}
+
+.nav-links li a::after{
+    content: '';
+    background: #007bff5e;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.contact {
+    background-color: rgb(63, 74, 239);
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.contact-links {
+    padding: 28px 0;
+    margin: 0 30px;
+}
+
+.contact-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.contact-links li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.logosContact {
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.login {
+    width: 20%;
+    margin: 0px auto;
+    margin-top: 13%;
+    margin-bottom: 120px;
+    padding: 20px;
+    text-align: center;
+}
+
+.login input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.login input:focus {
+    border: 1px solid #777
+}
+
+.login button {
+    background: #5d8ffc;
+    color: #ccc;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0,3s;
+}
+
+.login button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+}
+
+input, button {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+#logoSupport {
+    margin: 10px;
+}
+
+#contact {
+    color: aliceblue;
+}
+
+/*-- app page --*/

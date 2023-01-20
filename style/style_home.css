@@ -55,6 +55,7 @@ p {
 
 .Logo_1 {
     text-align: center;
+    margin-top: 70px;
 }
 
 .support {
@@ -64,11 +65,22 @@ p {
     box-shadow: 0 2px 5px rgb(0, 0, 0,253);
 }
 
+.supportLogos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+#logoSupport {
+    margin: 10px;
+}
+
 .header {
-    width: auto;
-    position: relative;
+    width: 100%;
     border: 0px solid ;
-    padding: 10px 10px;
+    position: fixed;
+    background-color: white;
+    top: -5px;
 }
 
 nav {
@@ -131,15 +143,42 @@ hr {
 
 .contact {
     background-color: rgb(63, 74, 239);
-    padding-left: 20%;
-    padding-top: 30px;
-    padding-bottom: 100px;
-    padding-right: 10%;  
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between; 
 }
 
+.contact-links {
+    padding: 28px 0;
+    margin: 0 30px;
+}
+
+.contact-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.contact-links li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.logosContact {
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;       
+}
+
+
+
 #contact {
     color: aliceblue;
 }
+

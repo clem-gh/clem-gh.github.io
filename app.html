@@ -5,12 +5,11 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>The Gotita Project</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <link rel="shortcut icon" href="Gotita 1.PNG">
+    <link rel='stylesheet' type='text/css' media='screen' href='/style/style_app.css'>
+    <link rel="shortcut icon" href="/images/Gotita 1.PNG">
 </head>
 
 <body>
-
     <section class="content_header">
         <div class="header">
             <nav>
@@ -18,22 +17,33 @@
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="app.html">App</a></li>
-                    <li><a href="index.html">Contact</a></li>
+                    <li><a href="mailto:andre.gomez@utp.edu.co">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </section>
 
-    
-    
-    <section class="contact">
-        <div>
+    <section>
+        <div id="login_div" class="login">
+            <h3>The GotitApp Login</h3>
+            <input type="email" placeholder="Email..." id="email_field"/>
+            <input type="password" placeholder="Password..." id="password_field"/>
+            <button onclick="login()">Login to GotitApp</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="contact">
             <h2 id="contact">Contact</h2>
-            <ul>
-                <li><a href="">Email</a></li>
-                <li><a href="">Linkedin</a></li>
-                <li><a href="">GitHub</a></li>
+            <ul class="contact-links">
+                <li><a href="mailto:andre.gomez@utp.edu.co">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/clement-gomez-henck/">Linkedin</a></li>
+                <li><a href="https://github.com/clem-gh/TheGotitaProject_YI2023">GitHub</a></li>
             </ul>
+        </div>
+        <div class="logosContact">
+            <a href="https://www.utp.edu.co/"><img id="logoSupport" src="images/Logo_U.T.P.png" height="60" alt="logo"></a>
+            <a href="https://minciencias.gov.co/"><img id="logoSupport" src="images/logo_minciencias.jpg" height="50" alt="logo"></a>
         </div>
     </section>
 
