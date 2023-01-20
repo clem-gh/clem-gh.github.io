@@ -55,7 +55,18 @@ p {
 
 .Logo_1 {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+#logo_1 {
+    transition: 0,3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0,3s;
+}
+
+#logo_1:hover {
+    box-shadow: 0 0.5px 4px rgb(0, 0, 2);
 }
 
 .support {
@@ -73,6 +84,13 @@ p {
 
 #logoSupport {
     margin: 10px;
+    transition: 0,3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0,3s;
+}
+
+#logoSupport:hover {
+    box-shadow: 0 0.5px 4px rgb(0, 0, 2);
 }
 
 .header {
